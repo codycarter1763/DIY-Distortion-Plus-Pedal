@@ -1,1 +1,1 @@
-# DIY-Distortion-Plus-Pedal
+# DIY Distortion Plus Pedal
