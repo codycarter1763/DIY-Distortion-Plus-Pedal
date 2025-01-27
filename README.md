@@ -25,3 +25,10 @@ This list is for the stock circuit without any mods.
 - 10KΩ Log Potentiometer
 - 2 1N34A Germanium Diodes
 
+# Circuit Diagrams and Mods
+## Stock Circuit Diagram
+![MXR Distortion Plus Schematic](https://github.com/user-attachments/assets/8a0bd349-39b4-4854-b804-345cb848d750)
+
+# Circuit Board and Design
+![MXR Distortion Plus 3D Render](https://github.com/user-attachments/assets/c574a7f0-d2c5-405c-947a-842e6ecb2f95)
+
