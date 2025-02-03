@@ -29,6 +29,19 @@ This list is for the stock circuit without any mods.
 ## Stock Circuit Diagram
 ![MXR Distortion Plus Schematic](https://github.com/user-attachments/assets/8a0bd349-39b4-4854-b804-345cb848d750)
 
+## Circuit Diagram with Common Mods
+Here are some common mods from Brian Wampler of Wampler Pedals, feel free to add mods to your design.
+- Compression switch to add or decrease compression
+- Change R3 and C3 to 1K and 0.22uF for more gain with similar tone
+- Wire a toggle switch to add in 1N34A and 1N4001 clipping diodes for a smoother distortion sound
+- Wire a six pin toggle switch to add 1n4001 diodes in series with 1N34A diodes for more volume and dynamics
+- Change C5 to a 2.2nF capacitor and add a 1M audio taper potentiometer for a tone control
+![MXR Distortion Plus Mods](https://github.com/user-attachments/assets/688128e7-7240-4ff0-953b-2da6ff297045)
+
+
 # Circuit Board and Design
+This is a 3D render of the original circuit design
 ![MXR Distortion Plus 3D Render](https://github.com/user-attachments/assets/c574a7f0-d2c5-405c-947a-842e6ecb2f95)
 
+# Closing
+Hope you got someting out of this guide for building the MXR Distortion Plus pedal. I'll update this repository as I find new information. 
