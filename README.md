@@ -38,6 +38,17 @@ Here are some common mods from Brian Wampler of Wampler Pedals, feel free to add
 - Change C5 to a 2.2nF capacitor and add a 1M audio taper potentiometer for a tone control
 ![MXR Distortion Plus Mods](https://github.com/user-attachments/assets/688128e7-7240-4ff0-953b-2da6ff297045)
 
+# Circuit Analysis and Effect of Mods
+The stock circuit is very simple yet effective. It uses just a single operational amplifier and a pair of germanium diodes to make the first commercially successful distortion pedals ever released.
+
+## OP Amp Stage
+The pedal uses the LM741CN to cleanly amplify the guitar signal. 
+- Starting at the source, the pedal runs off of 9V and feeds into the LM741. Then runs through a voltage divider with two 1Mohm resistors along with a 1nF capacitor to divide the voltage to 4.5V and smooth out any ripples from the 9V source
+- The guitar signal runs through a 1nF capacitor to ground to remove RF noise and other noise from te guitar signal. Then runs through a 10nF decoupling capacitor and 10k resistor that blocks any DC signals and attenuates the bass signals. Which then combines with the power supply impedance to feed into the non inverting op amp input.
+
+
+![Screenshot 2025-02-21 230755](https://github.com/user-attachments/assets/1f3b2574-f1f2-4dc1-b12c-27e2e4ed4e9a)
+
 
 # Circuit Board and Design
 This is a 3D render of the original circuit design
