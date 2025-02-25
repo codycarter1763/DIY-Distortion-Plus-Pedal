@@ -42,7 +42,7 @@ Here are some common mods from Brian Wampler of Wampler Pedals, feel free to add
 The stock circuit is very simple yet effective. It uses just a single operational amplifier and a pair of germanium diodes to make the first commercially successful distortion pedals ever released.
 
 ## OP Amp Stage
-
+![Screenshot 2025-02-21 230755](https://github.com/user-attachments/assets/1f3b2574-f1f2-4dc1-b12c-27e2e4ed4e9a)
 ### Input Impedance
 Z<sub>VGround</sub> = R6 // R7 = 1M // 1M = 500K <br> 
 Z<sub>Input</sub> = R1 + (Z<sub>Amp</sub> // R2) + Z<sub>VGround</sub> = 10K + (2M // 1M) + 500K = 1176K or 11.7Meg
@@ -66,16 +66,24 @@ For the response of the positive OP amp input, the effective impedance not consi
 <br>
 
 #### F<sub>c+</sub> Cutoff Frequency Using 1 / 2piRC
-F<sub>c+</sub> = 1 / (2pi(686K)(10nF)) = 23.2 Hz
-  This attentuates lower frequencies to prevent overloading and tone from being fuzzy
+F<sub>c+</sub> = 1 / (2pi(686K)(10nF)) = 23.2 Hz <br>
+This attentuates lower frequencies to prevent overloading and tone from being fuzzy
 <br>
 #### F<sub>c-</sub> Cutoff Frequency Max Gain
-F<sub>c-</sub> = 1 / (2pi(4.7K)(47nF)) = 720 Hz
+F<sub>c-</sub> = 1 / (2pi(4.7K)(47nF)) = 720 Hz <br>
   As distortion is turned up, the peak frequency shifts as viewed below
 <br>
 #### F<sub>c-</sub> Cutoff Frequency Low Gain
 F<sub>c-</sub> = 1 / (2pi(1.0047Meg)(47nF)) = 3.37 kHz
-![Screenshot 2025-02-21 230755](https://github.com/user-attachments/assets/1f3b2574-f1f2-4dc1-b12c-27e2e4ed4e9a)
+
+## Clipping Stage
+![Screenshot 2025-02-25 155303](https://github.com/user-attachments/assets/da495717-dbbc-4ecf-9ffa-c56469f78fc8)
+
+This stage contains two 1N270 germanium diodes that add a hard clip distortion to the amplified output. Germanium diodes are known for their softer distortion sound and more compression since voltages are clipped above 0.3V. In my case, I used 1N34A diodes, but tonality all germanium will sound similar.
+
+![MXR Distortion Plus Output Waveform 1N34A](https://github.com/user-attachments/assets/fd67ff92-7d99-4f47-873c-9c89efcff932)
+
+### Output Frequency Response
 
 
 # Circuit Board and Design
