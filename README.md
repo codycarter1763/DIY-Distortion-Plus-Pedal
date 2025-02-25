@@ -1,5 +1,5 @@
 # DIY Distortion Plus Guitar Pedal
-
+ 
 # About
 <h6>
   &emsp; The MXR Distortion Plus was considered the first commercially successful distortion pedals ever released. Known for it's aggressive "hard clipping" sound used by the likes of Randy Rhoads of Ozzy Osbourne, Jerry Garcia of the Grateful Dead, Slash of Guns N Dave Murray of Iron Maiden,and countless more. The pedal is very simple with its two output and distortion controls only, making for a very easy setup.  
