@@ -42,12 +42,10 @@ Here are some common mods from Brian Wampler of Wampler Pedals, feel free to add
 The stock circuit is very simple yet effective. It uses just a single operational amplifier and a pair of germanium diodes to make the first commercially successful distortion pedals ever released.
 
 ## OP Amp Stage
-The pedal uses the LM741CN to cleanly amplify the guitar signal. 
-- Starting at the source, the pedal runs off of 9V and feeds into the LM741. Then runs through a voltage divider with two 1Mohm resistors along with a 1nF capacitor to divide the voltage to 4.5V and smooth out any ripples from the 9V source
-- The guitar signal runs through a 1nF capacitor to ground to remove RF noise and other noise from the guitar signal. Then runs through a 10nF decoupling capacitor and 10k resistor that blocks any DC signals and attenuates the bass signals. Which then combines with the power supply impedance to feed into the non inverting op amp input.
-  <br>
-R<sub>p</sub> = R6//R7 = 500K <br>
-R<sub>p</sub> = R2//500K = 333K <br>
+
+### Input Impedance
+Z<sub>VGround</sub> = R6//R7 = 1M//1M = 500K <br>
+Z<sub>Input</sub> = R1 + (Z<sub>Amp</sub>//R2) + Z<sub>VGround</sub> = 
 <br>
 Using non inverting OP amp formula
 A<sub>v</sub> = 1 + R4/R2 = 1 + 1M/1M = 2 (gain)
