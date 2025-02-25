@@ -82,13 +82,28 @@ F<sub>c-</sub> = 1 / (2pi(1.0047Meg)(47nF)) = 3.37 kHz
 This stage contains two 1N270 germanium diodes that add a hard clip distortion to the amplified output. Germanium diodes are known for their softer distortion sound and more compression since voltages are clipped above 0.3V. In my case, I used 1N34A diodes, but tonality all germanium will sound similar.
 
 ![MXR Distortion Plus Output Waveform 1N34A](https://github.com/user-attachments/assets/fd67ff92-7d99-4f47-873c-9c89efcff932)
-
+<br>
 ### Output Frequency Response
+#### F<sub>cdiode</sub> 
+F<sub>cdiode</sub> = 1 / 2pi(10K)(1nF) = 15.9K
+This attentuation of high frequencies helps with less harmonic amplification and warmer tone
+<br>
+## 1N4001 Silicon Diode Switch Mod
+Using a 6 pin switch, you can add 1N4001 Silicon diodes in series to the germanium diodes for higher headroom and more dynamics since signals above 0.45V get clipped.
+![MXR Distortion Plus Output Waveform 1N34A and 1N4001](https://github.com/user-attachments/assets/0db49670-29b4-4caf-acdf-eb388f843390)
+<br>
+## Compression Mod
+Adding in a switch and 1nF capacitor in parallel to the 10nF input capacitor allows more bass to enter the OP amp. This leads to more comrpession and warmer tone.
+F<sub>cinputcap</sub> = 1 / 2pi(686K)(11nF) = 21.09Hz
+<br>
+## More Gain Mod
+Switching R3 and C3 out for a 1K resistor and 0.22uF capacitor leads to a higher gain potential of 48dB max gain.
+![MXR Distortion Plus Gain Mod Frequency Response](https://github.com/user-attachments/assets/92870e6a-fbf2-4575-a58a-743161e95ddd)
 
-
+<br>
 # Circuit Board and Design
-This is a 3D render of the original circuit design
+This is a 3D render of the original circuit design, gerber files can be found above.
 ![MXR Distortion Plus 3D Render](https://github.com/user-attachments/assets/c574a7f0-d2c5-405c-947a-842e6ecb2f95)
-
+<br>
 # Closing
 Hope you got someting out of this guide for building the MXR Distortion Plus pedal. I'll update this repository as I find new information. 
