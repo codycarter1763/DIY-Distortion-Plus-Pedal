@@ -67,11 +67,11 @@ For the response of the positive OP amp input, the effective impedance not consi
 
 #### F<sub>c+</sub> Cutoff Frequency Using 1 / 2piRC
 F<sub>c+</sub> = 1 / (2pi(686K)(10nF)) = 23.2 Hz
-- This attentuates lower frequencies to prevent overloading and tone from being fuzzy
+  This attentuates lower frequencies to prevent overloading and tone from being fuzzy
 <br>
 #### F<sub>c-</sub> Cutoff Frequency Max Gain
 F<sub>c-</sub> = 1 / (2pi(4.7K)(47nF)) = 720 Hz
-- As distortion is turned up, the peak frequency shifts as viewed below
+  As distortion is turned up, the peak frequency shifts as viewed below
 <br>
 #### F<sub>c-</sub> Cutoff Frequency Low Gain
 F<sub>c-</sub> = 1 / (2pi(1.0047Meg)(47nF)) = 3.37 kHz
