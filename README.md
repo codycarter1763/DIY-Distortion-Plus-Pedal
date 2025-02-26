@@ -79,7 +79,7 @@ F<sub>c-</sub> = 1 / (2pi(1.0047Meg)(47nF)) = 3.37 kHz
 ## Clipping Stage
 ![Screenshot 2025-02-25 155303](https://github.com/user-attachments/assets/da495717-dbbc-4ecf-9ffa-c56469f78fc8)
 
-This stage contains two 1N270 germanium diodes that add a hard clip distortion to the amplified output. Germanium diodes are known for their softer distortion sound and more compression since voltages are clipped above 0.3V. In my case, I used 1N34A diodes, but tonality all germanium will sound similar.
+This stage contains two 1N270 germanium diodes that add a hard clip distortion to the amplified output. Germanium diodes are known for their softer distortion sound and more compression since voltages are clipped above 0.25V. In my case, I used 1N34A diodes, but tonality all germanium will sound similar.
 
 ![MXR Distortion Plus Output Waveform 1N34A](https://github.com/user-attachments/assets/fd67ff92-7d99-4f47-873c-9c89efcff932)
 <br>
